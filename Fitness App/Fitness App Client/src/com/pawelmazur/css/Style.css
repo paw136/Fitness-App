@@ -1,0 +1,26 @@
+.borderpane{
+    -fx-background-color: #1F4B59;
+}
+
+.sidebar{
+    -fx-background-color: #163240;
+}
+
+.topbar{
+    -fx-background-color: #F2E9D8;
+}
+
+.sidebar-btn{
+    -fx-background-color: #F2EEED;
+    -fx-font: 32px "Arial";
+    -fx-text-fill: #163240;
+}
+
+.sidebar-btn:hover{
+    -fx-background-color: transparent;
+    -fx-font: 32px "Arial";
+    -fx-text-fill: #F2EEED;
+    -fx-padding: 0px 0px 0px 20px;
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-color: #F9B401;
+}
