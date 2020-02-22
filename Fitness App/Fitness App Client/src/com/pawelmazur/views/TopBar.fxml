@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.layout.HBox?>
 
-
-<HBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="1030.0" styleClass="topbar" stylesheets="@../css/Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pawelmazur.controllers.TopBarController" />
+<HBox fx:id="hBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="1280.0" styleClass="topbar" stylesheets="@../css/Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pawelmazur.controllers.TopBarController">
+   <children>
+      <JFXHamburger fx:id="hamburger" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="32.0">
+         <HBox.margin>
+            <Insets left="40.0" />
+         </HBox.margin>
+      </JFXHamburger>
+      <JFXTextField prefHeight="75.0" prefWidth="400.0" promptText="Enter Your Search" styleClass="topbar-searchbar" stylesheets="@../css/Style.css">
+         <HBox.margin>
+            <Insets left="178.0" />
+         </HBox.margin>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" prefHeight="75.0" prefWidth="77.0" ripplerFill="#f2eeed" styleClass="topbar-btn" stylesheets="@../css/Style.css">
+         <graphic>
+            <FontAwesomeIcon iconName="SEARCH" />
+         </graphic>
+      </JFXButton>
+   </children>
+</HBox>

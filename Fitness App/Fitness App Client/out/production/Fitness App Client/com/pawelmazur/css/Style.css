@@ -7,7 +7,7 @@
 }
 
 .topbar{
-    -fx-background-color: #F2E9D8;
+    -fx-background-color: transparent;
 }
 
 .sidebar-btn{
@@ -23,4 +23,20 @@
     -fx-padding: 0px 0px 0px 20px;
     -fx-border-width: 0px 0px 0px 5px;
     -fx-border-color: #F9B401;
+}
+
+
+.topbar-searchbar{
+    -fx-background-color: #F2EEED;
+    -fx-font: 26px "Arial";
+}
+
+.topbar-btn{
+    -fx-background-color: #F2EEED;
+    -fx-font: 26px "Arial";
+
+}
+
+.topbar-btn:hover{
+    -fx-background-color: transparent;
 }
