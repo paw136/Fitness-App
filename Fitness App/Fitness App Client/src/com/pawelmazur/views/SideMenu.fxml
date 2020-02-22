@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="250.0" styleClass="sidebar" stylesheets="@../css/Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="250.0" ripplerFill="#f2eeed" styleClass="sidebar-btn" stylesheets="@../css/Style.css" text="Main Menu">
+         <VBox.margin>
+            <Insets bottom="30.0" top="100.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton layoutX="10.0" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="250.0" ripplerFill="#f2eeed" styleClass="sidebar-btn" stylesheets="@../css/Style.css" text="Your Training">
+         <VBox.margin>
+            <Insets bottom="30.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton layoutX="10.0" layoutY="196.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="250.0" ripplerFill="#f2eeed" styleClass="sidebar-btn" stylesheets="@../css/Style.css" text="Your Dietitian ">
+         <VBox.margin>
+            <Insets bottom="30.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton layoutX="10.0" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="250.0" ripplerFill="#f2eeed" styleClass="sidebar-btn" stylesheets="@../css/Style.css" text="Main Menu">
+         <VBox.margin>
+            <Insets bottom="30.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton layoutX="10.0" layoutY="427.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="250.0" ripplerFill="#f2eeed" styleClass="sidebar-btn" stylesheets="@../css/Style.css" text="Quit">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </JFXButton>
+   </children>
+</VBox>
